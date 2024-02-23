@@ -1,0 +1,18 @@
+﻿@page
+@model AzureCacheSample.Pages.redis.IndexModel
+@{
+}
+
+<div>
+	<form>
+		<input type="text"  asp-for="@Model.AccoutInfo" />
+		<input type="submit"  value="Click" />
+
+	</form>
+</div>
+<hr/>
+<p>
+	<h3>@Model.AccoutInfo</h3>
+	<h4>@Model.MyResult</h4>
+</p>
+
